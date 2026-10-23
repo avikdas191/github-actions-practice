@@ -1,0 +1,13 @@
+name: ds_311
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - scipy
+  - jupyter
+  - pip
