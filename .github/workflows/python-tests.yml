@@ -28,8 +28,9 @@ jobs:
       run: |
         pytest
 
-  job2:
+  deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Hello Github!!"
+    - name: Pretend deploy stage
+      run: echo "Hello Github!!"
